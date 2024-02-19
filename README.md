@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ToDo List 📋
 
-Currently, two official plugins are available:
+Aplicação para anotar tarefas diárias à serem concluídas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades 🔦
 
-## Expanding the ESLint configuration
+- Criar tarefa
+- Excluir tarefa
+- Marcar tarefa como concluída
+- Desmarcar tarefa como concluída
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologias utilizadas 🖥️
 
-- Configure the top-level `parserOptions` property like this:
+- React (react-router-dom, ContextAPI, styled-components)
+- Typescript
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Instalação 🛠️
+
+Instale o projeto em sua máquina! Clone este repositório do GitHub, acesse a pasta do projeto e digite:
+
+```bash
+  npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Após isso, rode o comando `npm run dev` para iniciar a aplicação por padrão nessa URL: http://localhost:5173.
+    
+## Autores
+
+- [@devcarlosalberto](https://www.github.com/devcarlosalberto) (código)
+- [@rocketseat](https://github.com/rocketseat-education) (design)
